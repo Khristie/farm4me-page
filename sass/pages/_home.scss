@@ -1,0 +1,46 @@
+.section-features{
+      background-color:$color-grey-light;
+      font-size:$default-font-size;
+      padding: 2.5rem;
+      text-align: center;
+      border-radius: 3px;
+
+      transition: transform .3s;
+      }
+.section-stories{
+      background-image: linear-gradient( to right bottom,
+      rgba($color-grey-dark, 0.8),
+      rgba($color-primary-dark, 0.8)),
+      url(../img/farm-6.jpg);
+      background-size:cover; 
+
+}
+.section-statement {
+      background-color: $color-grey-light;
+      padding: 10rem 0;
+}
+
+.section-featured{
+      background-image: linear-gradient(to right bottom, rgba($color-primary, 0.4),
+      rgba($color-primary-dark, 0.4)),
+      url(../img/farm-6.jpg);
+      background-size: cover;
+      padding: 15rem 0;
+}
+.section-testimonial{
+      background-color: $color-grey-light;
+      padding: 10rem 0;
+}
+
+.section-blog{
+      
+            background-image: linear-gradient( to right bottom,
+            rgba($color-grey-dark, 0.8),
+            rgba($color-primary-dark, 0.8)),
+            url(../img/farm-6.jpg);
+            background-size:cover; 
+            height: 100%;
+            padding: 10rem;
+      
+      
+}

@@ -1,0 +1,31 @@
+.nav{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        &_list{
+                list-style: none;
+                margin: .4rem;
+
+                @include respond(tab-port) {
+                        margin: .2rem;
+        }            
+                @include respond(phone) {
+                margin: .3rem;
+              }
+              }
+
+         &_link{
+                color: $color-white;
+                text-decoration: none;
+                display: block;
+         }           
+         &_link:hover{
+                 color: $color-primary-light;
+         }
+        &_item{
+              display: block;  
+              margin-left: .7rem;
+              float: right;
+        }
+}

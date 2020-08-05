@@ -1,1 +1,1 @@
-This is a landing page for an Agritech company. Created with in html and styled using sass.
+This is a landing page for an Agritech company. Created with html and styled using sass.
